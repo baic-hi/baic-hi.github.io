@@ -7,8 +7,16 @@
 
 /* ===== 页面基础 ===== */
 body {
-  background: #f5f4f2; /* 接近纸张的灰白 */
-  color: #111;
+  body {
+  background: #000;
+  color: #ddd;
+}
+
+.block img {
+  display: block;
+  margin: 0 auto 160px;
+}
+
   font-family: serif;
   line-height: 1.6;
 }
