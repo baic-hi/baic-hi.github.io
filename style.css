@@ -1,57 +1,45 @@
-/* 基础样式 */
+/* 基础 */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #000;
-  color: #fff;
-  text-align: center;
+  background: #0f0f0f;
+  color: #cfcfcf;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
 }
 
-h1, h2 {
-  margin: 20px 0;
-  font-size: 2.5em;
-  color: #fff;
+/* 顶部 */
+.intro {
+  padding: 80px 40px 120px;
 }
 
-/* 首页样式 */
-.home .intro {
-  padding: 50px 0;
+.whisper {
+  font-size: 14px;
+  opacity: 0.6;
+  letter-spacing: 0.05em;
 }
 
-.photo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
-
-/* 作品展示区 */
-.portfolio {
-  padding: 50px 20px;
-}
-
-.gallery {
+/* 主体空间 */
+.space {
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 160px;
+  padding: 0 40px 200px;
 }
 
-.gallery img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
+/* 单张作品 */
+.work img {
+  max-width: 720px;
+  width: 100%;
+  display: block;
 }
 
-.gallery img:hover {
-  transform: scale(1.05);
-}
-img {
-  display: block !important;
-  max-width: 100%;
-  border: 2px solid red;
+/* 页脚 */
+.footnote {
+  padding: 60px 40px;
+  font-size: 12px;
+  opacity: 0.3;
 }
