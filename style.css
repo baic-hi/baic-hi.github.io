@@ -10,7 +10,6 @@ body {
   background: #000;
   color: #ddd;
 }
-
 .block img {
   display: block;
   margin: 0 auto 160px;
@@ -19,6 +18,17 @@ body {
 .img-large {
   width: 100%;
   max-width: 1000px;
+}
+.between-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 240px;
+
+  letter-spacing: 1em;
+  font-size: 14px;
+  color: #888;
 }
 /* 第二张图片：缩小 */
 .img-small {
