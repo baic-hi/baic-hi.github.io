@@ -1,45 +1,74 @@
-/* 基础 */
-* {
-  box-sizing: border-box;
-}
+/* ===== 基础 ===== */
 
 body {
   margin: 0;
-  background: #0f0f0f;
-  color: #cfcfcf;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.6;
+  background: #000;
+  color: #ddd;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               Arial, sans-serif;
 }
 
-/* 顶部 */
-.intro {
-  padding: 80px 40px 120px;
-}
-
-.whisper {
-  font-size: 14px;
-  opacity: 0.6;
-  letter-spacing: 0.05em;
-}
-
-/* 主体空间 */
-.space {
-  display: flex;
-  flex-direction: column;
-  gap: 160px;
-  padding: 0 40px 200px;
-}
-
-/* 单张作品 */
-.work img {
-  max-width: 720px;
+/* 所有段落的通用空间 */
+.section {
   width: 100%;
-  display: block;
+  box-sizing: border-box;
+  padding: 0 8vw;
 }
 
-/* 页脚 */
-.footnote {
-  padding: 60px 40px;
-  font-size: 12px;
-  opacity: 0.3;
+/* ===== 图片基础 ===== */
+
+img {
+  display: block;
+  height: auto;
+}
+
+/* 不同“气质”的图片尺寸 */
+.image-large {
+  width: 70%;
+}
+
+.image-medium {
+  width: 55%;
+}
+
+.image-small {
+  width: 40%;
+}
+
+/* ===== 位置控制（艺术感核心） */
+
+.offset-left {
+  margin-left: 0;
+}
+
+.offset-right {
+  margin-left: auto;
+}
+
+/* ===== 双图段落 ===== */
+
+.double {
+  display: flex;
+  gap: 6vw;
+  align-items: flex-start;
+}
+
+/* ===== 文字（极度克制） */
+
+.note {
+  margin-top: 40px;
+  max-width: 260px;
+  font-size: 13px;
+  line-height: 1.7;
+  opacity: 0.8;
+}
+
+/* ===== 空白模块（非常重要） */
+
+.spacer {
+  height: 180px;
+}
+
+.spacer.large {
+  height: 320px;
 }
