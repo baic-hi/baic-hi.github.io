@@ -1,74 +1,41 @@
-/* ===== 基础 ===== */
-
-body {
+/* ===== 全局重置 ===== */
+* {
   margin: 0;
-  background: #000;
-  color: #ddd;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-               Arial, sans-serif;
-}
-
-/* 所有段落的通用空间 */
-.section {
-  width: 100%;
+  padding: 0;
   box-sizing: border-box;
-  padding: 0 8vw;
 }
 
-/* ===== 图片基础 ===== */
+/* ===== 页面基础 ===== */
+body {
+  background: #f5f4f2; /* 接近纸张的灰白 */
+  color: #111;
+  font-family: serif;
+  line-height: 1.6;
+}
 
-img {
+/* 页面整体宽度 & 留白（你最常改这里） */
+.page {
+  max-width: 900px;     /* ↓ 图片不会再铺满屏幕 */
+  margin: 120px auto;   /* ↑ 上下大留白 */
+  padding: 0 40px;      /* 左右呼吸感 */
+}
+
+/* ===== 每一组内容 ===== */
+.block {
+  margin-bottom: 160px; /* 每一组之间的“空气” */
+}
+
+/* ===== 图片控制（重点） ===== */
+.block img {
+  width: 100%;          /* 图片永远不超过容器 */
+  max-width: 600px;     /* ⭐ 核心：限制图片最大宽度 */
   display: block;
-  height: auto;
 }
 
-/* 不同“气质”的图片尺寸 */
-.image-large {
-  width: 70%;
-}
-
-.image-medium {
-  width: 55%;
-}
-
-.image-small {
-  width: 40%;
-}
-
-/* ===== 位置控制（艺术感核心） */
-
-.offset-left {
-  margin-left: 0;
-}
-
-.offset-right {
-  margin-left: auto;
-}
-
-/* ===== 双图段落 ===== */
-
-.double {
-  display: flex;
-  gap: 6vw;
-  align-items: flex-start;
-}
-
-/* ===== 文字（极度克制） */
-
-.note {
-  margin-top: 40px;
-  max-width: 260px;
-  font-size: 13px;
-  line-height: 1.7;
-  opacity: 0.8;
-}
-
-/* ===== 空白模块（非常重要） */
-
-.spacer {
-  height: 180px;
-}
-
-.spacer.large {
-  height: 320px;
+/* ===== 图片说明文字 ===== */
+.caption {
+  margin-top: 24px;
+  max-width: 420px;
+  font-size: 14px;
+  color: #444;
 }
