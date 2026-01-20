@@ -39,7 +39,7 @@ body {
 
 /* ===== 中间文字 ===== */
 .between-text {
-  height: 260px;
+  height: 200px;
 
   display: flex;
   align-items: center;
