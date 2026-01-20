@@ -27,7 +27,7 @@ body {
 
 /* 第一张：比之前大两倍 */
 .img-large {
-  width: 100%;
+  width: 150%;
   max-width: 1000px;
 }
 
