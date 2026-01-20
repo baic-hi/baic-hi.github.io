@@ -1,62 +1,64 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Photography Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>some images</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: #ddd;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .note {
+      font-size: 12px;
+      color: #777;
+      margin: 40px 0 120px 40px;
+    }
+
+    .img-loose {
+      width: 60%;
+      margin-left: 80px;
+      margin-bottom: 160px;
+    }
+
+    .img-small {
+      width: 40%;
+      margin-left: 120px;
+      margin-bottom: 200px;
+    }
+
+    .img-right {
+      width: 55%;
+      margin-left: auto;
+      margin-right: 60px;
+      margin-bottom: 240px;
+    }
+  </style>
 </head>
 
 <body>
 
-  <!-- 顶部封面 -->
-  <header class="hero">
-    <h1>WELCOME</h1>
-    <p>摄影作品集</p>
-  </header>
+  <!-- 首页低声入口 -->
+  <p class="note">some images i keep</p>
 
-  <!-- 导航 -->
-  <nav class="nav">
-    <a href="#early">早期作品</a>
-    <a href="#middle">中期作品</a>
-    <a href="#recent">近期作品</a>
-  </nav>
+  <!-- 第一张图：误闯感 -->
+  <img src="images/early/01.jpg" class="img-loose" />
 
-  <!-- 早期作品 -->
-  <section id="early" class="section">
-    <h2>早期作品 · Early Works</h2>
-<div class="works">
-  <img src="image/early/01.JPEG" alt="Early Work 01" width="400">
-</div>
+  <!-- 散落的图 -->
+  <img src="images/early/02.jpg" class="img-small" />
 
-    <div class="grid">
-      <img src="image/early/o1.JPEG" alt="">
-      <img src="image/early/02.JPEG" alt="">
-    </div>
-  </section>
+  <img src="images/early/03.jpg" class="img-right" />
 
-  <!-- 中期作品 -->
-  <section id="middle" class="section">
-    <h2>中期作品 · Middle Period</h2>
-    <div class="grid">
-      <img src="image/middle/01.JPEG" alt="">
-      <img src="image/middle/02.JPEG" alt="">
-    </div>
-  </section>
+  <!-- 阶段注释（不是标题） -->
+  <p class="note">earlier</p>
 
-     <!-- 近期作品 -->
-    <section id="recent" class="section">
-      <h2>近期作品 · Recent Works</h2>
-      <div class="grid">
-      </div>
-    </section>
-
-    <img src="image/early/01.JPEG" width="400">
-
-    <!-- 页脚 -->
-    <footer class="footer">
-      <p>© 2026 Your Name</p>
-    </footer>
-
-  </body>
+</body>
 </html>
