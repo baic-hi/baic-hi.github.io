@@ -1,64 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-  <meta charset="UTF-8" />
-  <title>some images</title>
-
-  <style>
-    body {
-      margin: 0;
-      background: #000;
-      color: #ddd;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    }
-
-    img {
-      display: block;
-      max-width: 100%;
-    }
-
-    .note {
-      font-size: 12px;
-      color: #777;
-      margin: 40px 0 120px 40px;
-    }
-
-    .img-loose {
-      width: 60%;
-      margin-left: 80px;
-      margin-bottom: 160px;
-    }
-
-    .img-small {
-      width: 40%;
-      margin-left: 120px;
-      margin-bottom: 200px;
-    }
-
-    .img-right {
-      width: 55%;
-      margin-left: auto;
-      margin-right: 60px;
-      margin-bottom: 240px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>notes</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- 首页低声入口 -->
-  <p class="note">some images i keep</p>
+  <header class="intro">
+    <p class="whisper">一些尚未整理的影像</p>
+  </header>
 
-  <!-- 第一张图：误闯感 -->
-  <img src="images/early/01.jpg" class="img-loose" />
+  <main class="space">
 
-  <!-- 散落的图 -->
-  <img src="images/early/02.jpg" class="img-small" />
+    <section class="work">
+      <img src="images/early/01.jpg" alt="">
+    </section>
 
-  <img src="images/early/03.jpg" class="img-right" />
+    <section class="work">
+      <img src="images/early/02.jpg" alt="">
+    </section>
 
-  <!-- 阶段注释（不是标题） -->
-  <p class="note">earlier</p>
+    <section class="work">
+      <img src="images/early/03.jpg" alt="">
+    </section>
+
+  </main>
+
+  <footer class="footnote">
+    <p>©</p>
+  </footer>
 
 </body>
 </html>
