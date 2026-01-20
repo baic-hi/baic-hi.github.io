@@ -5,63 +5,47 @@
   box-sizing: border-box;
 }
 
-/* ===== 页面基础 ===== */
+/* ===== 页面整体 ===== */
 body {
   background: #000;
-  color: #ddd;
+  color: #ccc;
+  font-family: serif;
 }
+
+/* 页面内容宽度 */
+.page {
+  max-width: 1100px;
+  margin: 120px auto;
+  padding: 0 40px;
+}
+
+/* ===== 图片通用 ===== */
 .block img {
   display: block;
-  margin: 0 auto 160px;
+  margin: 0 auto;
 }
-/* 第一张图片：更大 */
+
+/* 第一张：比之前大两倍 */
 .img-large {
   width: 100%;
   max-width: 1000px;
 }
+
+/* 第二张：缩小一半 */
+.img-small {
+  width: 50%;
+  max-width: 500px;
+}
+
+/* ===== 中间文字 ===== */
 .between-text {
+  height: 260px;
+
   display: flex;
   align-items: center;
   justify-content: center;
 
-  height: 240px;
-
-  letter-spacing: 1em;
   font-size: 14px;
-  color: #888;
-}
-/* 第二张图片：缩小 */
-.img-small {
-  width: 50%;
-}
-
-  font-family: serif;
-  line-height: 1.6;
-}
-
-/* 页面整体宽度 & 留白（你最常改这里） */
-.page {
-  max-width: 900px;     /* ↓ 图片不会再铺满屏幕 */
-  margin: 120px auto;   /* ↑ 上下大留白 */
-  padding: 0 40px;      /* 左右呼吸感 */
-}
-
-/* ===== 每一组内容 ===== */
-.block {
-  margin-bottom: 160px; /* 每一组之间的“空气” */
-}
-
-/* ===== 图片控制（重点） ===== */
-.block img {
-  width: 50%;          /* 图片永远不超过容器 */
-  max-width: 600px;     /* ⭐ 核心：限制图片最大宽度 */
-  display: block;
-}
-
-/* ===== 图片说明文字 ===== */
-.caption {
-  margin-top: 24px;
-  max-width: 420px;
-  font-size: 14px;
-  color: #444;
+  letter-spacing: 0.6em;
+  color: #777;
 }
