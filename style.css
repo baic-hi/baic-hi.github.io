@@ -33,7 +33,7 @@ body {
 
 /* 第二张：缩小一半 */
 .img-small {
-  width: 50%;
+  width: 30%;
   max-width: 500px;
 }
 
