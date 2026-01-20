@@ -15,6 +15,15 @@ body {
   display: block;
   margin: 0 auto 160px;
 }
+/* 第一张图片：更大 */
+.img-large {
+  width: 100%;
+  max-width: 1000px;
+}
+/* 第二张图片：缩小 */
+.img-small {
+  width: 50%;
+}
 
   font-family: serif;
   line-height: 1.6;
