@@ -49,3 +49,15 @@ body {
   letter-spacing: 0.6em;
   color: #777;
 }
+.page-two {
+  margin-top: 300px;
+  padding-bottom: 300px;
+}
+
+.diary {
+  max-width: 400px;
+  margin-left: 40px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #aaa;
+}
