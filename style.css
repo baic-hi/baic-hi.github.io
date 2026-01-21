@@ -69,18 +69,21 @@ body {
 /* ====== 第三页：三张图片并排居中 ====== */
 
 .page-three {
-  padding: 120px 0;   /* 上下留白，可自行调小 */
+  padding: 80px 0;
 }
 
 .three-row {
-  max-width: 1200px;   /* 控制整组三张图的总宽度 */
+  max-width: 1200px;
   margin: 0 auto;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .three-row img {
-  width: 30%;
+  width: 28%;
+  height: auto;
   display: block;
 }
+
