@@ -66,10 +66,10 @@ body {
   width: 40%;    /* 每张图占 40%，中间自然留白 */
   height: auto;
 }
-/* ====== 第三页：三张图片并排居中 ====== */
+/* ===== 第三页：三张图片并排居中 ===== */
 
 .page-three {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 .three-row {
@@ -77,13 +77,13 @@ body {
   margin: 0 auto;
 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  gap: 40px;              /* ← 图片之间的距离 */
+
+  padding: 0 40px;        /* ← 图片与页面边缘的距离（和 gap 一样） */
 }
 
 .three-row img {
-  width: 32%;
+  width: calc((100% - 80px) / 3);
   height: auto;
   display: block;
 }
-
