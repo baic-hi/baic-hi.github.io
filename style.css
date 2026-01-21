@@ -66,3 +66,21 @@ body {
   width: 40%;    /* 每张图占 40%，中间自然留白 */
   height: auto;
 }
+/* ====== 第三页：三张并列图片 ====== */
+
+.page-three {
+  padding: 120px 0;   /* 上下留白，可调 */
+}
+
+.three-images {
+  max-width: 1200px;  /* 控制整组宽度 */
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between; /* 关键：等间距 */
+}
+
+.three-images img {
+  width: 30%;         /* 三张刚好放下 */
+  display: block;
+}
