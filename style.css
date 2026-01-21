@@ -49,15 +49,20 @@ body {
   letter-spacing: 0.6em;
   color: #777;
 }
+/* ===== 第二页：两张并排竖图 ===== */
+
 .page-two {
-  margin-top: 300px;
-  padding-bottom: 300px;
+  padding: 300px 0;          /* 第二页上下留白 */
 }
 
-.diary {
-  max-width: 400px;
-  margin-left: 40px;
-  font-size: 14px;
-  line-height: 1.8;
-  color: #aaa;
+.two-images {
+  display: flex;
+  justify-content: space-between; /* 中间和两侧距离相等 */
+  max-width: 900px;               /* 控制整体宽度 */
+  margin: 0 auto;                 /* 整体居中 */
+}
+
+.two-images img {
+  width: 40%;    /* 每张图占 40%，中间自然留白 */
+  height: auto;
 }
