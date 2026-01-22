@@ -91,3 +91,38 @@ body {
   height: auto;
   display: block;
 }
+/* ===== 第五页：三图并排 + 底部手绘椭圆 ===== */
+
+.page-five {
+  padding-top: 40px;      /* 页面顶端距离 */
+  padding-bottom: 80px;   /* 给底部椭圆留空间 */
+}
+
+.five-row {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-evenly; /* 关键：图间距 = 页面边距 */
+  align-items: center;
+}
+
+.five-row img {
+  width: 30%;
+  height: auto;
+  display: block;
+}
+
+/* ===== 手绘感蓝色椭圆 ===== */
+
+.blue-oval {
+  margin: 60px auto 0 auto;
+
+  width: 320px;
+  height: 48px;
+
+  border: 3px solid #2a5cff;
+  border-radius: 50%;
+
+  transform: rotate(-2deg); /* 一点点手绘歪感 */
+}
