@@ -66,21 +66,17 @@ body {
   width: 40%;    /* 每张图占 40%，中间自然留白 */
   height: auto;
 }
-/* ===== 第三页：居中文字 ===== */
+/* ===== 第三页：左上角文字 ===== */
 
 .page-three {
-  min-height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 40px 40px 0 40px; /* 靠近顶端，但不是贴死 */
 }
 
 .text-center {
-  text-align: center;
+  text-align: left;          /* 左对齐 */
   font-size: 16px;
   line-height: 1.8;
-  max-width: 600px;
+  max-width: 520px;
 }
 /* ===== 第四页：单张图片，顶端居中 ===== */
 
@@ -89,7 +85,6 @@ body {
   display: flex;
   justify-content: center; /* 水平居中 */
 }
-
 .page-four img {
   width: 80%;              /* 图片偏大一点 */
   max-width: 1600px;       /* 防止超大屏失控 */
