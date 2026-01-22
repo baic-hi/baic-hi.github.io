@@ -81,12 +81,12 @@ body {
 /* ===== 第四页：单张图片，顶端居中 ===== */
 
 .page-four {
-  padding: 40%;              /* 不留空隙 */
+  padding: 40%;             
   display: flex;
   justify-content: center; /* 水平居中 */
 }
 .page-four img {
-  width: 65%;              /* 图片偏大一点 */
+  width: 80%;              /* 图片偏大一点 */
   max-width: 1600px;       /* 防止超大屏失控 */
   height: auto;
   display: block;
