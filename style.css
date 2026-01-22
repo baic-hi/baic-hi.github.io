@@ -78,16 +78,16 @@ body {
   line-height: 1.8;
   max-width: 520px;
 }
-/* ===== 第四页：单张图片，顶端居中 ===== */
+/* ===== 第四页：右侧单张图片 ===== */
 
 .page-four {
-  padding: 40%;             
+  padding: 40px;           /* 页面整体呼吸感 */
   display: flex;
-  justify-content: center; /* 水平居中 */
+  justify-content: flex-end; /* 关键：靠右 */
 }
+
 .page-four img {
-  width: 80%;              /* 图片偏大一点 */
-  max-width: 1600px;       /* 防止超大屏失控 */
+  width: 60%;              /* 图片占页面 60% */
   height: auto;
   display: block;
 }
