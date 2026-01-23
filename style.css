@@ -115,21 +115,20 @@ body {
 /* ===== 第六页：上下错开的两张图片 ===== */
 
 .page-six {
-  padding: 60px;
+  padding-top: 20px;
 }
 
 .page-six img {
-  width: 50%;
+  width: 60vw;
+  max-width: 900px;
   height: auto;
   display: block;
 }
 
-/* 第一张：左 */
 .left-img {
-  margin-bottom: 80px;   /* 两张图的上下间距 */
+  margin-bottom: 40px;
 }
 
-/* 第二张：右 */
 .right-img {
-  margin-left: auto;     /* 推到右侧 */
+  margin-left: auto;
 }
