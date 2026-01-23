@@ -112,3 +112,24 @@ body {
   height: auto;
   display: block;
 }
+/* ===== 第六页：上下错开的两张图片 ===== */
+
+.page-six {
+  padding: 60px;
+}
+
+.page-six img {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+/* 第一张：左 */
+.left-img {
+  margin-bottom: 80px;   /* 两张图的上下间距 */
+}
+
+/* 第二张：右 */
+.right-img {
+  margin-left: auto;     /* 推到右侧 */
+}
