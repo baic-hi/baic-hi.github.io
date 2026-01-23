@@ -112,3 +112,17 @@ body {
   height: auto;
   display: block;
 }
+/* ===== 第六页：全屏图片 ===== */
+
+.page-six {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.page-six img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
