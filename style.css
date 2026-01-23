@@ -112,17 +112,3 @@ body {
   height: auto;
   display: block;
 }
-/* ===== 第六页：单张图片，适中尺寸 ===== */
-
-.page-six {
-  padding: 80px 0;          /* 上下留白：页面呼吸感 */
-  display: flex;
-  justify-content: center; /* 水平居中 */
-}
-
-.page-six img {
-  width: 60vw;              /* 图片占页面宽度约 60% */
-  max-width: 900px;         /* 防止在大屏幕上过大 */
-  height: auto;
-  display: block;
-}
