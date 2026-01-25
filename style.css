@@ -112,23 +112,17 @@ body {
   height: auto;
   display: block;
 }
-/* ===== 第六页：上下错开的两张图片 ===== */
-
 .page-six {
-  padding-top: 20px;
+  padding: 0;
 }
 
+/* 第六页图片 */
 .page-six img {
-  width: 60vw;
-  max-width: 900px;
+  width: 60vw;          /* 占页面 60% */
+  max-width: 1000px;    /* 防止超大屏失控 */
   height: auto;
   display: block;
-}
 
-.left-img {
-  margin-bottom: 40px;
-}
-
-.right-img {
-  margin-left: auto;
+  margin-left: auto;    /* 推到右边 */
+  margin-right: 60px;   /* 距离页面右侧 60px */
 }
