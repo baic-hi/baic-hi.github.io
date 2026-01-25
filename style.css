@@ -126,3 +126,15 @@ body {
   margin-left: auto;    /* 推到右边 */
   margin-right: 60px;   /* 距离页面右侧 60px */
 }
+.three-equal {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 40px;   /* 页面左右距离 */
+}
+
+.three-equal img {
+  width: calc((100% - 80px) / 3);
+  height: auto;
+  display: block;
+}
