@@ -126,6 +126,7 @@ body {
   margin-left: auto;    /* 推到右边 */
   margin-right: 60px;   /* 距离页面右侧 60px */
 }
+/* 第七页图片 */
 .three-equal {
   display: flex;
   justify-content: space-between;
